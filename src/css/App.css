@@ -1,0 +1,10 @@
+.tabText{
+    font-size: x-large;
+}
+.card{
+    /* flex-grow: 1; */
+}
+.cardGroup{
+    display: 'flex';
+    flex-direction: row;
+}

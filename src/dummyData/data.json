@@ -1,0 +1,74 @@
+{
+    "user": "XYZ",
+    "accounts": [
+        {
+            "type": "Savings",
+            "balance": 10000,
+            "accountNumber": 123456,
+            "beneficiary": [
+                {
+                    "name": "beneficiary 1"
+                },
+                {
+                    "name": "beneficiary 2"
+                }
+            ],
+            "transactions": [
+                {
+                    "date": "10/21/2020",
+                    "amount": 123,
+                    "type": "credit",
+                    "id": "t1"
+                },
+                {
+                    "date": "10/10/2020",
+                    "amount": 103,
+                    "type": "debit",
+                    "id": "t2"
+                },
+                {
+                    "date": "10/6/2020",
+                    "amount": 76,
+                    "type": "credit",
+                    "id": "t3"
+                },
+                {
+                    "date": "10/8/2020",
+                    "amount": 109,
+                    "type": "debit",
+                    "id": "t4"
+                }
+            ]
+        },
+        {
+            "type": "Current",
+            "balance": 15678,
+            "accountNumber": 908765,
+            "transactions": []
+        }
+    ],
+    "payees": [
+        {
+            "name": "payee1",
+            "account_number": 89047,
+            "ifsc_code": "MJ57575",
+            "nickname": "payee1nn",
+            "from_acc": 908765,
+            "amt": 78
+        },
+        {
+            "name": "payee2",
+            "account_number": 89098,
+            "ifsc_code": "MJ54375",
+            "nickname": "payee2nn",
+            "from_acc": 908765
+        },
+        {
+            "name": "payee3",
+            "account_number": 890454,
+            "ifsc_code": "KI57575",
+            "nickname": "payee3nn",
+            "from_acc": 908765
+        }
+    ]
+}
